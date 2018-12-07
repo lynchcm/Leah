@@ -1,0 +1,28 @@
+        <div id="menu">
+            <ul id="menu-list">
+                <a href="/">
+                    <li>Home</li>
+                </a>
+                {{ range where (.Site.Pages.ByParam "menuOrder") ".Params.menuitem" true }}
+                <a href="{{ .Permalink }}">
+                    <li>{{ .Title }}</li>
+                </a>
+                {{ end }}
+
+            </ul>
+            <div id="menu-button">
+                <a id="open-menu-link" href="#menu">
+                    <div id="burger-button">
+                        <div class="burger-line" id="burger-line-1"></div>
+                        <div class="burger-line" id="burger-line-2"></div>
+                        <div class="burger-line" id="burger-line-3"></div>
+                    </div>
+                </a>
+                <a id="close-menu-link" href="#">
+                    <div id="close-button">
+                        <div class="close-line" id="close-line-1"></div>
+                        <div class="close-line" id="close-line-2"></div>
+                    </div>
+                </a>
+            </div>
+        </div>

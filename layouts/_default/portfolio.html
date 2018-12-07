@@ -1,0 +1,62 @@
+{{ partial "head.html" . }}
+        {{ partial "menu.html" . }}
+        {{ partial "logo-and-banner.html" . }}
+        <div class="portfolio section svg-waves-section">
+            <div class="dark-blue-background svg-waves-background svg-yellow">
+                {{ partial "waves-bottom.svg" . }}
+            </div>
+            <h2 class="dark-blue-text yellow-background">Portfolio</h2>
+            <div id="slideshow-rail">
+                <div id="slideshow-container">
+                    {{ range where (.Pages.ByParam "order") "Params.type" "quote" }}
+                    <div class="slide yellow-background">
+                        <div class="quote-marks open-quote">
+                            {{ partial "quote-mark.svg" }}
+                        </div>
+                        <p class="light-blue-text">{{ .Params.quote }}</p>
+                        <p class="light-blue-text">{{ .Params.name }}</p>
+                        <div class="quote-marks close-quote">
+                            {{ partial "quote-mark.svg" }}
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+                <div class="slide-indicators">
+                    {{ range where (.Pages.ByParam "order") "Params.type" "quote" }}
+                    <div class="indicator-dot"></div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+
+        <div class="clients section svg-waves-section">
+            <div class="yellow-background svg-waves-background svg-light-blue">
+                {{ partial "waves-top.svg" . }}
+            </div>
+            <h2 class="dark-blue-text yellow-background">Clients</h2>
+            <div class="client-detail">
+                {{ range where (.Pages.ByParam "order") "Params.type" "client" }}
+                <div class="row">
+                    <div class="col-50-med relative">
+                        <div class="white-circle">
+                            <img{{ if eq .Params.circularLogo true }} class="circular-img"{{ end }} src="{{ .Params.clientImg }}">
+                        </div>
+                        
+                    </div>
+                    <div class="col-50-med">
+                        {{ .Content }}
+                    </div>
+                </div>
+                <p>Wedidamazing things for genneu wow they were sogreat, fab fab fab, etc etc etc Lorem ipsum dolor sit amet, graecisdelenitidignissim nevix.Nullam vidisse ateum.Ad nec sumoposidonium,</p>
+                {{ end }}
+                
+            </div>
+        </div>
+        
+        <div class="light-blue-background">
+{{partial "get-in-touch.html" . }}
+        </div>
+
+
+
+{{partial "footer.html" . }}

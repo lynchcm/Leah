@@ -1,0 +1,84 @@
+        <script>
+            $(function () {
+                {{- if eq .Title "Portfolio" }}
+                const slideshowContainer= document.getElementById('slideshow-container');
+                
+                const slideshowRail = document.getElementById('slideshow-rail');
+                
+                const N = slideshowContainer.children.length;
+                document.documentElement.style.setProperty('--n', N);
+                
+                let x0 = null;
+                let locked = false;
+                let tx = '';
+                
+                function unify(e) {
+                    return e.changedTouches ? e.changedTouches[0] : e
+                };
+                
+                function lock(e) {
+                    x0 = unify(e).clientX;
+                    slideshowContainer.classList.toggle('smooth', !(locked = true));
+                }
+                
+                let i = 0;
+                function move(e) {
+                    if(locked) {
+                        let dx = unify(e).clientX - x0;
+                        let s = Math.sign(dx);
+                        $('.indicator-dot:nth-of-type(' + (i + 1) + ')').toggleClass('selected', false);
+
+                        if((i > 0 || s < 0) && (i < N -1 || s > 0)) {
+                            slideshowContainer.style.setProperty('--i', i -= s);
+                            x0 = null;
+                        } else if (i == 0) {
+                            slideshowContainer.style.setProperty('--i', 0);
+                        } else if (i == N - 1) {
+                            slideshowContainer.style.setProperty('--i', N - 1);
+                        }
+                        slideshowContainer.style.setProperty('--tx', '0px');
+                        slideshowContainer.classList.toggle('smooth', true);
+                        $('.indicator-dot:nth-of-type(' + (i + 1) + ')').toggleClass('selected', true);
+                    }
+                    locked = false;
+                };
+                
+                function drag(e) {
+                    e.preventDefault();
+                    if(locked) {
+                        tx = Math.round(unify(e).clientX) - x0 + 'px';
+                        slideshowContainer.style.setProperty('--tx', tx);
+                    } else {
+                    }
+                }
+                
+                slideshowRail.addEventListener('mousedown', lock, false);
+                slideshowRail.addEventListener('touchstart', lock, false);
+                
+                slideshowRail.addEventListener('mouseup', move, false);
+                slideshowRail.addEventListener('touchend', move, false);
+                
+                slideshowRail.addEventListener('mousemove', drag, false);
+                slideshowRail.addEventListener('touchmove', drag, false);
+                
+                slideshowRail.addEventListener('touchmove', e => {e.preventDefault()}, false);
+                
+                $('.indicator-dot:nth-of-type(' + (i + 1) + ')').toggleClass('selected', true);
+                
+                $('.indicator-dot').click(function() {
+                    
+                    $('.indicator-dot:nth-of-type(' + (i + 1) + ')').toggleClass('selected', false);
+                    
+                    i = $('.indicator-dot').index(this);
+                    
+                    slideshowContainer.style.setProperty('--i', i);
+                    
+                    $('.indicator-dot:nth-of-type(' + (i + 1) + ')').toggleClass('selected', true);
+                });
+                
+                {{ end }}
+            });
+            
+        </script>
+    </body>
+</html>
