@@ -92,7 +92,13 @@
                 <div class="col-50-med">
                     <div class="blue-circle">
                         <h4>Blog</h4>
-                        <p>Most recent post title goes here</p>
+                        {{- $.Scratch.Set "counter" 0 -}}
+                        {{ range where (.Pages.ByDate.Reverse) "Params.type" "blogArticle" }}
+                        {{ if eq ($.Scratch.Get "counter") 0 }}
+                        <p>{{ .Params.blogTitle }}</p>
+                        {{ end }}
+                        {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+                        {{ end }}
                     </div>
                 </div>
                 <div class="col-50-med">
