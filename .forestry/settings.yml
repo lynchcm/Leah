@@ -15,12 +15,17 @@ sections:
   create: documents
   match: "**/*"
   exclude: _index.md
+  templates:
+  - quote1-md
+  - client
 - type: directory
   path: content/blog
   label: Blog
   create: documents
   match: "**/*"
   exclude: _index.md
+  templates:
+  - blog1-md
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
