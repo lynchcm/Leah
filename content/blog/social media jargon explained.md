@@ -10,7 +10,7 @@ If you’re trying to get your business up and running on social media, you migh
 
 ## Algorithm
 
-Breathe… It’s the dreaded algorithm! It’s _eas_iest to think of an algorithm as a formula fed to a computer, telling it to perform a certain function, or follow a specific set of rules. In the case of
+Breathe… It’s the dreaded algorithm! It’s easiest to think of an algorithm as a formula fed to a computer, telling it to perform a certain function, or follow a specific set of rules. In the case of
 
 Facebook’s algorithm, the formula dictates which content appears highly in someone’s feed. Facebook changes this formula all the time, never giving an individual or company enough time to fully crack the code; however, there are a few things we know for sure.
 
@@ -38,6 +38,6 @@ Using influencers is a great way to boost your company’s reputation or followi
 
 ## Reach
 
-When looking at your analytics, you will see the term ‘reach’. This means the number of people, or unique individuals, who have seen your post. It does not matter how many times the person has viewed the post; for example, they could have seen it on their news feed and once again when their friend shared it, but your reach would only increase by one. Reach is often confused with impressions. The difference is that ‘impressions’ refers to the number of times a post has been seen. With the above example, then, your number of impressions would increase by two. 
+When looking at your analytics, you will see the term ‘reach’. This means the number of people, or unique individuals, who have seen your post. It does not matter how many times the person has viewed the post; for example, they could have seen it on their news feed and once again when their friend shared it, but your reach would only increase by one. Reach is often confused with impressions. The difference is that ‘impressions’ refers to the number of times a post has been seen. With the above example, then, your number of impressions would increase by two.
 
 There are two types of reach: organic and paid. Organic reach refers to the number of people who have seen a post without it being boosted by any kind of payment. Paid reach, meanwhile, refers to the number of unique individuals who have seen a piece of content because you have paid for it to be boosted.
