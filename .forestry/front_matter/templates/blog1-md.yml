@@ -1,0 +1,30 @@
+---
+label: blog1.md
+hide_body: 
+is_partial: 
+fields:
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: blogTitle
+  label: Blogtitle
+  type: text
+  hidden: false
+  default: ''
+- name: blogIntro
+  label: Blogintro
+  type: textarea
+  hidden: false
+  default: ''
+- name: blogImg
+  label: Blogimg
+  type: file
+  hidden: false
+  default: ''
