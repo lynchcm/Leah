@@ -1,30 +1,35 @@
 ---
-label: blog1.md
-hide_body: 
-is_partial: 
+label: Blog Article
+hide_body: false
+is_partial: false
 fields:
 - name: type
   label: Type
   type: text
-  hidden: false
-  default: ''
+  hidden: true
+  default: blogArticle
 - name: layout
   label: Layout
   type: text
-  hidden: false
-  default: ''
+  hidden: true
+  default: blogArticle
 - name: blogTitle
-  label: Blogtitle
+  label: Blog Article Title
   type: text
   hidden: false
   default: ''
+  config:
+    required: true
 - name: blogIntro
-  label: Blogintro
+  label: Blog intro
   type: textarea
   hidden: false
   default: ''
+  config:
+    required: true
 - name: blogImg
-  label: Blogimg
+  label: Blog image
   type: file
   hidden: false
   default: ''
+  description: Image on the main blog page (not the blog article)
