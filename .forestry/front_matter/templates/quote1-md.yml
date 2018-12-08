@@ -20,6 +20,13 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: number
+  name: order
+  label: Order
+  description: What order the quotes appear in
+  config:
+    min: '1'
+    step: '1'
 pages:
 - content/portfolio/john-s-quote.md
 - content/portfolio/harry-s-quote.md
