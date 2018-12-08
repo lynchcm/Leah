@@ -5,35 +5,28 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
   path: content/uploads
   label: Uploads
-  create: all
+  create: none
   match: "**/*"
+  exclude: _index.md
 - type: directory
   path: content/portfolio
   label: Portfolio
-  create: all
+  create: documents
   match: "**/*"
-- type: directory
-  path: content/thankyou
-  label: Thankyou
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/services
-  label: Services
-  create: all
-  match: "**/*"
+  exclude: _index.md
+  templates:
+  - quote1-md
+  - client
 - type: directory
   path: content/blog
   label: Blog
-  create: all
+  create: documents
   match: "**/*"
+  exclude: _index.md
+  templates:
+  - blog1-md
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
