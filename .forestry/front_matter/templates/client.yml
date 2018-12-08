@@ -22,3 +22,5 @@ fields:
   config:
     min: '1'
     step: '1'
+pages:
+- content/portfolio/genneu.md
