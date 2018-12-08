@@ -1,0 +1,28 @@
+{{ partial "head.html" . }}
+        {{ partial "menu.html" . }}
+        {{ partial "logo-and-banner.html" . }}
+        <div class="portfolio section svg-waves-section">
+            <div class="dark-blue-background svg-waves-background svg-yellow">
+                {{ partial "waves-bottom.svg" . }}
+            </div>
+            <h2 class="dark-blue-text yellow-background">Blog</h2>
+            <p>{{ .Params.blogIntro }}</p>
+        </div>
+
+        <div class="clients section svg-waves-section">
+            <div class="yellow-background svg-waves-background svg-light-blue">
+                {{ partial "waves-top.svg" . }}
+            </div>
+<!--            <h2 class="dark-blue-text yellow-background"></h2>-->
+            <div class="blog-detail">
+                {{ .Content }}
+            </div>
+        </div>
+        
+        <div class="light-blue-background">
+{{partial "get-in-touch.html" . }}
+        </div>
+
+
+
+{{partial "footer.html" . }}
