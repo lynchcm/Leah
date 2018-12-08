@@ -46,21 +46,21 @@
             
             <div class="row light-blue-background">
                 <div class="col-33-med">
-                    <a href="#">
+                    <a href="/services/#getting-started">
                         <div class="yellow-circle">
                             <h4>Getting Started</h4>
                         </div>
                     </a>
                 </div>
                 <div class="col-33-med">
-                    <a href="#">
+                    <a href="/services/#consultation-and-audit">
                         <div class="yellow-circle">
                             <h4>Knowing if we're doing the right thing</h4>
                         </div>
                     </a>
                 </div>
                 <div class="col-33-med">
-                    <a href="#">
+                    <a href="/services/#outsourcing">
                         <div class="yellow-circle">
                             <h4>We've had some success, but can't always find the time</h4>
                         </div>
@@ -90,22 +90,26 @@
             <h2></h2>
             <div class="row yellow-background">
                 <div class="col-50-med">
-                    <div class="blue-circle">
-                        <h4>Blog</h4>
-                        {{- $.Scratch.Set "counter" 0 -}}
-                        {{ range where (.Pages.ByDate.Reverse) "Params.type" "blogArticle" }}
-                        {{ if eq ($.Scratch.Get "counter") 0 }}
-                        <p>{{ .Params.blogTitle }}</p>
-                        {{ end }}
-                        {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-                        {{ end }}
-                    </div>
+                    <a href="/blog">
+                        <div class="blue-circle">
+                            <h4>Blog</h4>
+                            {{- $.Scratch.Set "counter" 0 -}}
+                            {{ range where (.Pages.ByDate.Reverse) "Params.type" "blogArticle" }}
+                            {{ if eq ($.Scratch.Get "counter") 0 }}
+                            <p>{{ .Params.blogTitle }}</p>
+                            {{ end }}
+                            {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+                            {{ end }}
+                        </div>
+                    </a>
                 </div>
                 <div class="col-50-med">
-                    <div class="blue-circle">
-                        <h4>Portfolio</h4>
-                        <p>"Personal, impactful, and affordable &mdash; a brilliant service"</p>
-                    </div>
+                    <a href="/portfolio">
+                        <div class="blue-circle">
+                            <h4>Portfolio</h4>
+                            <p>"Personal, impactful, and affordable &mdash; a brilliant service"</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

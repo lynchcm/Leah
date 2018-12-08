@@ -22,6 +22,7 @@ h2 {
     font-family: PlaylistScript;
     font-weight: 100;
     font-size: 30px;
+    padding: 0 0 20px 20px;
 
     @media only screen and (min-width: $medium) {
         padding: 0 60px 20px 60px;
@@ -40,12 +41,16 @@ h3 {
 p {
     font-family: $Amatic;
     color: white;
-    font-size: 24px;
+    font-size: 28px;
     padding: 0 20px 20px 20px;
     
     @media only screen and (min-width: $medium) {
         padding: 0 60px 20px 60px;
     }
+}
+
+a {
+    text-decoration: none;
 }
 
 #menu {
@@ -98,7 +103,7 @@ p {
     #menu-button {
         width: 60px;
         height: 60px;
-        background-color: white;
+        background-color: #FFFFFFD0;
         position: fixed;
         z-index: 3;
         top: 20px;
@@ -289,7 +294,6 @@ p {
         p {
             font-family: $Amatic;
             color: $themePink;
-            font-size: 24px;
             position: relative;
             z-index: 1;
             padding: 0;
@@ -453,9 +457,9 @@ p {
     
     ul {
         font-family: $Amatic;
-        font-size: 24px;
+        font-size: 28px;
         color: white;
-        padding-left: 60px;
+//        padding-left: 60px;
         
         li {
             list-style: none;
@@ -479,9 +483,10 @@ p {
         color: $themeYellow;
         background-color: $themeLightBlue;
         
+        
         @media only screen and (min-width: $medium) { //was small
             float: right;
-            padding: 50px 40px 0 0;
+            padding: 60px 60px 0 0;
             background-color: transparent;
         }
     }
@@ -496,6 +501,10 @@ p {
     
     .white-text {
         color: white;
+        
+        @media only screen and (min-width: $medium) {
+            padding: 90px 80px 0 0;
+        }
     }
 }
 
@@ -506,7 +515,7 @@ p {
         
         @media only screen and (min-width: $medium) { //was small
             float: left;
-            padding: 80px 0 0 40px;
+            padding: 80px 0 0 60px;
             background-color: transparent;
         }
     }
@@ -527,7 +536,7 @@ p {
         
         @media only screen and (min-width: $medium) {//was small
             float: right;
-            padding: 50px 40px 0 0;
+            padding: 70px 60px 0 0;
             background-color: transparent;
         }
     }
@@ -557,7 +566,7 @@ p {
         
         @media only screen and (min-width: $medium) { //was small
             float: left;
-            padding: 100px 0 0 40px;
+            padding: 100px 0 0 60px;
             background-color: transparent;
         }
     }
@@ -575,7 +584,7 @@ p {
     label {
         font-family: $Amatic;
         color: white;
-        font-size: 20px;
+        font-size: 28px;
         padding-top: 15px;
     }
     
@@ -587,14 +596,15 @@ p {
     }
 
     input {
-        height: 25px;
+        height: 30px;
     }
     
     button {
         width: 80px;
-        height: 30px;
+        height: 40px;
         background-color: $themeYellow;
-        font-size: 20px;
+        font-family: $Amatic;
+        font-size: 28px;
         border-radius: 5px;
         margin: 20px auto;
         display: block;
@@ -632,7 +642,7 @@ p {
         color: $themePink;
         font-family: $Amatic;
         text-align: center;
-        font-size: 24px;
+        font-size: 28px;
         width: 150px;
         margin: 0 auto;
     }
@@ -641,8 +651,8 @@ p {
 .blue-circle {
     border-radius: 50%;
     background-color: $themeLightBlue;
-    width: 250px;
-    height: 250px;
+    width: 275px;
+    height: 275px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -655,12 +665,15 @@ p {
         font-size: 24px;
         width: 150px;
         margin: 0 auto;
+        padding-bottom: 20px;
     }
     
     p {
         text-align: center;
         color: white;
     }
+    
+
 }
 
 .svg-yellow {
@@ -714,7 +727,7 @@ p {
 .portfolio {
     h2 {
         @media only screen and (min-width: $medium) {//was small
-            padding: 80px 0 0 40px;
+            padding: 80px 0 0 60px;
             background-color: transparent;
         }
     }
@@ -797,7 +810,7 @@ p {
         
         @media only screen and (min-width: $medium) {//was small
             float: right;
-            padding: 50px 40px 0 0;
+            padding: 70px 60px 0 0;
             background-color: transparent;
         }
     }
@@ -910,4 +923,27 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.blog-article {
+    h2 {
+        color: white;
+        background-color: $themeLightBlue;
+        height: 100px;
+        
+        @media only screen and (min-width: $medium) {//was small
+            padding: 20px 0 0 60px;
+            background-color: transparent;
+        }
+    }
+
+    .blog-detail {
+        background-color: $themeLightBlue;
+        
+        img {
+            width: 80%;
+            margin: 0 auto;
+            display: block;
+        }
+    }
 }
