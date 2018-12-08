@@ -28,5 +28,6 @@ fields:
     min: '1'
     step: '1'
 pages:
+- content/portfolio/roanna-s-quote.md
 - content/portfolio/john-s-quote.md
 - content/portfolio/harry-s-quote.md
