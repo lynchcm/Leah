@@ -44,7 +44,7 @@
                 };
                 
                 function drag(e) {
-                    e.preventDefault();
+//                    e.preventDefault();
                     if(locked) {
                         tx = Math.round(unify(e).clientX) - x0 + 'px';
                         slideshowContainer.style.setProperty('--tx', tx);
