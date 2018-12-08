@@ -43,9 +43,11 @@ p {
     color: white;
     font-size: 28px;
     padding: 0 20px 20px 20px;
+    text-align: center;
     
     @media only screen and (min-width: $medium) {
         padding: 0 60px 20px 60px;
+        text-align: left;
     }
 }
 
@@ -460,6 +462,8 @@ a {
         font-size: 28px;
         color: white;
 //        padding-left: 60px;
+        width: 315px;
+        margin: 0 auto;
         
         li {
             list-style: none;
