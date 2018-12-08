@@ -1,0 +1,24 @@
+---
+label: Client
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  default: client
+  label: type
+  name: type
+  hidden: true
+- type: textarea
+  label: Summary of work done for client
+  name: summary
+- type: boolean
+  name: circularLogo
+  label: Circular logo?
+  description: Select this if the logo is circular
+- type: number
+  name: order
+  label: Order
+  description: Order to show clients on portfolio page
+  config:
+    min: '1'
+    step: '1'
