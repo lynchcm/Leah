@@ -22,5 +22,8 @@ fields:
   config:
     min: '1'
     step: '1'
+- type: file
+  name: clientImg
+  label: Logo image
 pages:
 - content/portfolio/genneu.md
