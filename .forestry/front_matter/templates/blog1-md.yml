@@ -35,3 +35,4 @@ fields:
   description: Image on the main blog page (not the blog article)
 pages:
 - content/blog/blog1.md
+- content/blog/blog2.md
