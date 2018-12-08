@@ -34,5 +34,5 @@ fields:
   default: ''
   description: Image on the main blog page (not the blog article)
 pages:
-- content/blog/blog1.md
+- content/blog/social media jargon explained.md
 - content/blog/blog2.md
