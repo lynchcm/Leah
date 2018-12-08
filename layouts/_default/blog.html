@@ -6,30 +6,28 @@
                 {{ partial "waves-bottom.svg" . }}
             </div>
             <h2 class="dark-blue-text yellow-background">Blog</h2>
-            <p>INtrobumf with SEO words. eueos natum vitae efficiendi. Mei in primavelit nobis, dicit aliquidqui cu, eueos natum vitae efficiendi. Mei in primavelit nobis,dicit aliquidqui cu,eueos natum vitae efficiendi. Mei in primavelit nobis,dicit aliquid.</p>
+            <p>from discovering the best twitter scheduling tools to working out how to appear in as many instagram searches as possible, our blog offers plenty of social media tips to boost your business online!</p>
         </div>
 
         <div class="clients section svg-waves-section">
             <div class="yellow-background svg-waves-background svg-light-blue">
                 {{ partial "waves-top.svg" . }}
             </div>
-            <h2 class="dark-blue-text yellow-background"></h2>
+<!--            <h2 class="dark-blue-text yellow-background"></h2>-->
             <div class="blog-detail">
-                {{- $.Scratch.Set "counter" 0 -}}
                 {{ range where (.Pages.ByDate.Reverse) "Params.type" "blogArticle" }}
                 <div class="spacer"></div>
                 <div class="row">
-                    <div class="col-60-med vertical-align">
-                        <h4>{{ .Params.blogTitle }}</h4>
-                        <p>{{ .Params.blogIntro }}</p>
-                    </div>
                     <div class="col-40-med vertical-align">
                         {{ $resource := (.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .Params.blogImg) }}
                         {{ $resource := $resource.Fill "400x400 Center" }} 
                         <img class="clip-circle" src="{{ $resource.Permalink }}">
                     </div>
+                    <div class="col-60-med vertical-align">
+                        <h4>{{ .Params.blogTitle }}</h4>
+                        <p>{{ .Params.blogIntro }}</p>
+                    </div>
                 </div>
-                {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
                 {{ end }}
             </div>
         </div>

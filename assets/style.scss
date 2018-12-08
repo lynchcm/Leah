@@ -6,7 +6,7 @@ $themePink: #EC2849;
 $Playfair: 'Playfair Display', serif;
 $Amatic: 'Amatic SC', cursive;
 
-$small: 500px;
+$small: 800px;
 $medium: 800px;
 
 @font-face {
@@ -22,7 +22,12 @@ h2 {
     font-family: PlaylistScript;
     font-weight: 100;
     font-size: 30px;
+
+    @media only screen and (min-width: $medium) {
+        padding: 0 60px 20px 60px;
+    }
 }
+
 
 h3 {
     font-family: $Amatic;
@@ -37,6 +42,10 @@ p {
     color: white;
     font-size: 24px;
     padding: 0 20px 20px 20px;
+    
+    @media only screen and (min-width: $medium) {
+        padding: 0 60px 20px 60px;
+    }
 }
 
 #menu {
@@ -61,7 +70,6 @@ p {
         width: 100%;
         height: 100vh;
         background-color: $themeYellow;
-        border: 1px solid red;
         box-sizing: border-box;
         position: fixed;
         z-index: 2;
@@ -167,6 +175,7 @@ p {
 .row {
     width: 100%;
     clear: both;
+//    padding-top: 40px;
     
     @media only screen and (min-width: $medium) {
         display: flex;
@@ -185,12 +194,13 @@ p {
     
     .col-50-med {
         width: 100%;
-        padding: 40px 0;
+        padding: 20px 0;
         box-sizing: border-box;
         
         @media only screen and (min-width: $medium) {
             padding: 0;
             flex: 0 0 50%;
+            padding: 40px 0;
         }
     }
     
@@ -202,6 +212,7 @@ p {
         @media only screen and (min-width: $medium) {
             padding: 0;
             flex: 0 0 60%;
+            order: 1;
         }
     }
     
@@ -213,6 +224,7 @@ p {
         @media only screen and (min-width: $medium) {
             padding: 0;
             flex: 0 0 40%;
+            order: 2;
         }
     }
 }
@@ -270,7 +282,7 @@ p {
         position: relative;
         width: 60%;
         
-        @media only screen and (min-width: $small) {
+        @media only screen and (min-width: $medium) { //was small
             width: 300px;
         }
 
@@ -321,7 +333,7 @@ p {
         margin-left: 40px;
         box-shadow: -5px -3px $themeYellow;
         
-        @media only screen and (min-width: 750px) {
+        @media only screen and (min-width: $medium) {
             margin: 0 auto 35px auto;
             transform: translateX(-150px);
         }
@@ -342,7 +354,7 @@ p {
         float: right;
         box-shadow: 5px -3px $themeYellow;
         
-        @media only screen and (min-width: 750px) {
+        @media only screen and (min-width: $medium) {
             float: none;
             margin: 0 auto 35px auto;
             transform: translateX(150px);
@@ -366,7 +378,7 @@ p {
         margin-left: 40px;
         box-shadow: -5px -3px $themeYellow;
         
-        @media only screen and (min-width: 750px) {
+        @media only screen and (min-width: $medium) {
             margin: 0 auto 35px auto;
             transform: translateX(-150px);
         }
@@ -391,7 +403,7 @@ p {
     right: 0;
     height: 100px;
     
-    @media only screen and (min-width: $small) {
+    @media only screen and (min-width: $medium) { //was small
         height: 200px;
         position: absolute;
     }
@@ -433,7 +445,7 @@ p {
         height: 100px;
         text-align: center;
 
-        @media only screen and (min-width: $small) {
+        @media only screen and (min-width: $medium) { // was small
             height: 200px;
             text-align: inherit;
         }
@@ -467,9 +479,9 @@ p {
         color: $themeYellow;
         background-color: $themeLightBlue;
         
-        @media only screen and (min-width: $small) {
+        @media only screen and (min-width: $medium) { //was small
             float: right;
-            padding: 50px 20px 0 0;
+            padding: 50px 40px 0 0;
             background-color: transparent;
         }
     }
@@ -492,10 +504,18 @@ p {
         color: white;
         background-color: $themePink;
         
-        @media only screen and (min-width: $small) {
+        @media only screen and (min-width: $medium) { //was small
             float: left;
-            padding: 80px 0 0 20px;
+            padding: 80px 0 0 40px;
             background-color: transparent;
+        }
+    }
+    
+    ul {
+        li {
+            &:before {
+                background-image: url('/images/light-blue-leaf.png');
+            }
         }
     }
 }
@@ -505,23 +525,39 @@ p {
         color: $themeDarkBlue;
         background-color: $themeYellow;
         
-        @media only screen and (min-width: $small) {
+        @media only screen and (min-width: $medium) {//was small
             float: right;
-            padding: 50px 20px 0 0;
+            padding: 50px 40px 0 0;
             background-color: transparent;
+        }
+    }
+    
+    p {
+        color: $themeDarkBlue;
+    }
+    
+    ul {
+        li {
+            color: $themeDarkBlue;
+            &:before {
+                background-image: url('/images/dark-blue-leaf.png');
+            }
         }
     }
 }
 
 .get-in-touch {
+    .row {
+        padding-top: 0;
+    }
     
     h2 {
         color: white;
         background-color: $themeDarkBlue;
         
-        @media only screen and (min-width: $small) {
+        @media only screen and (min-width: $medium) { //was small
             float: left;
-            padding: 80px 0 0 20px;
+            padding: 100px 0 0 40px;
             background-color: transparent;
         }
     }
@@ -623,6 +659,7 @@ p {
     
     p {
         text-align: center;
+        color: white;
     }
 }
 
@@ -676,7 +713,7 @@ p {
 
 .portfolio {
     h2 {
-        @media only screen and (min-width: $small) {
+        @media only screen and (min-width: $medium) {//was small
             padding: 80px 0 0 40px;
             background-color: transparent;
         }
@@ -758,9 +795,9 @@ p {
         color: white;
         background-color: $themeLightBlue;
         
-        @media only screen and (min-width: $small) {
+        @media only screen and (min-width: $medium) {//was small
             float: right;
-            padding: 50px 20px 0 0;
+            padding: 50px 40px 0 0;
             background-color: transparent;
         }
     }
@@ -785,6 +822,10 @@ p {
         font-size: 28px;
         font-weight: 100;
         padding: 10px 20px;
+        
+        @media only screen and (min-width: $medium) {
+            padding: 10px 60px;
+        }
     }
 }
 
@@ -796,9 +837,10 @@ p {
 }
 
 .white-circle {
-    width: 50vw;
-    border: 1px solid red;
-    height: 50vw;
+    width: 60vw;
+    max-width: 300px;
+    height: 60vw;
+    max-height: 300px;
     background-color: white;
     border-radius: 50%;
     display: flex;
@@ -807,8 +849,9 @@ p {
     margin: 0 auto;
     
     @media only screen and (min-width: $medium) {
-        width: 35vw;
-        height: 35vw;
+        width: 30vw;
+        height: 30vw;
+        margin: 60px auto 20px auto;
     }
     
     img {
@@ -819,7 +862,7 @@ p {
     }
     
     .circular-img {
-        width: 90%;
+        width: 85%;
     }
 }
 
@@ -858,5 +901,13 @@ p {
 }
 
 .spacer {
-    height: 100px;
+    @media only screen and (min-width: $medium) {
+        height: 100px;
+    }
+}
+
+.client-content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
