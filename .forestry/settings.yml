@@ -7,8 +7,9 @@ sections:
 - type: directory
   path: content/uploads
   label: Uploads
-  create: all
+  create: none
   match: "**/*"
+  exclude: _index.md
 - type: directory
   path: content/portfolio
   label: Portfolio
