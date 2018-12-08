@@ -17,17 +17,19 @@
             <div class="blog-detail">
                 {{ range where (.Pages.ByDate.Reverse) "Params.type" "blogArticle" }}
                 <div class="spacer"></div>
-                <div class="row">
-                    <div class="col-40-med vertical-align">
-                        {{ $resource := (.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .Params.blogImg) }}
-                        {{ $resource := $resource.Fill "400x400 Center" }} 
-                        <img class="clip-circle" src="{{ $resource.Permalink }}">
+                <a href="{{ .Permalink }}">
+                    <div class="row">
+                        <div class="col-40-med vertical-align">
+                            {{ $resource := (.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .Params.blogImg) }}
+                            {{ $resource := $resource.Fill "400x400 Center" }} 
+                            <img class="clip-circle" src="{{ $resource.Permalink }}">
+                        </div>
+                        <div class="col-60-med vertical-align">
+                            <h4>{{ .Params.blogTitle }}</h4>
+                            <p>{{ .Params.blogIntro }}</p>
+                        </div>
                     </div>
-                    <div class="col-60-med vertical-align">
-                        <h4>{{ .Params.blogTitle }}</h4>
-                        <p>{{ .Params.blogIntro }}</p>
-                    </div>
-                </div>
+                </a>
                 {{ end }}
             </div>
         </div>
