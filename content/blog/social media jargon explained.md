@@ -10,9 +10,7 @@ If you’re trying to get your business up and running on social media, you migh
 
 ## Algorithm
 
-Breathe… It’s the dreaded algorithm! It’s easiest to think of an algorithm as a formula fed to a computer, telling it to perform a certain function, or follow a specific set of rules. In the case of
-
-Facebook’s algorithm, the formula dictates which content appears highly in someone’s feed. Facebook changes this formula all the time, never giving an individual or company enough time to fully crack the code; however, there are a few things we know for sure.
+Breathe… It’s the dreaded algorithm! It’s easiest to think of an algorithm as a formula fed to a computer, telling it to perform a certain function, or follow a specific set of rules. In the case of Facebook’s algorithm, the formula dictates which content appears highly in someone’s feed. Facebook changes this formula all the time, never giving an individual or company enough time to fully crack the code; however, there are a few things we know for sure.
 
 Firstly, the more someone interacts with a post, the more likely it is to appear highly on a feed. Secondly, there are different tiers to interaction: active and passive. Passive interaction is simply receiving a like from someone who is just scrolling through their feed. Active interaction is much more valuable. This requires someone to take an extra step; for example, sharing a post via Messenger or reacting to a post (e.g. laughing, loving, crying etc.) rather than simply liking it. These actions will help a post to appear higher and more often.
 

@@ -747,7 +747,7 @@ a {
     width: 100%;
     overflow-x: hidden;
     box-sizing: border-box;
-    height: 300px;
+//    height: 300px;
     background-color: $themeYellow;
 }
 
@@ -840,6 +840,7 @@ a {
         font-size: 28px;
         font-weight: 100;
         padding: 10px 20px;
+        text-align: center;
         
         @media only screen and (min-width: $medium) {
             padding: 10px 60px;
@@ -960,5 +961,58 @@ a {
             margin: 0 auto;
             display: block;
         }
+    }
+    
+    p {
+        text-align: left;
+    }
+}
+
+#blog-article-title {
+    @media only screen and (min-width: $medium) {
+        padding-top: 125px;
+    }
+}
+
+#thank-you-h2 {
+    text-align: center;
+    padding: 0;
+    
+    @media only screen and (min-width: $medium) {
+        padding-top: 150px;
+    }
+}
+
+#thank-you-p {
+    @media only screen and (min-width: $medium) {
+        padding: 125px 0;
+    }
+}
+
+#made-by-micro {
+    background-color: $themeLightBlue;
+    position: relative;
+    
+    @media only screen and (min-width: $medium) {
+        padding-top: 140px;
+        background-color: transparent;
+    }
+    
+    
+    p {
+        text-align: center;
+    }
+   
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+#made-by-micro-after-form {
+    background-color: $themeDarkBlue;
+    a {
+        color: inherit;
     }
 }

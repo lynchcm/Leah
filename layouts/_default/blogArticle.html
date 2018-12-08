@@ -5,7 +5,7 @@
             <div class="dark-blue-background svg-waves-background svg-yellow">
                 {{ partial "waves-bottom.svg" . }}
             </div>
-            <h2 class="dark-blue-text yellow-background">Blog</h2>
+            <h2 id="blog-article-title" class="dark-blue-text yellow-background">{{ .Params.blogTitle }}</h2>
             <p>{{ .Params.blogIntro }}</p>
         </div>
 

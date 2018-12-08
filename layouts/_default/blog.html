@@ -15,6 +15,7 @@
             </div>
 <!--            <h2 class="dark-blue-text yellow-background"></h2>-->
             <div class="blog-detail">
+                <div class="spacer"></div>
                 {{ range where (.Pages.ByDate.Reverse) "Params.type" "blogArticle" }}
                 <div class="spacer"></div>
                 <a href="{{ .Permalink }}">
