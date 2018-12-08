@@ -1,20 +1,22 @@
 ---
-label: quote1.md
-hide_body: 
-is_partial: 
+label: Quote
+hide_body: true
+is_partial: false
 fields:
 - name: type
   label: Type
   type: text
-  hidden: false
-  default: ''
+  hidden: true
+  default: quote
 - name: quote
   label: Quote
   type: textarea
   hidden: false
   default: ''
+  config:
+    required: true
 - name: name
-  label: Name
+  label: Who the quote's from
   type: text
   hidden: false
   default: ''
