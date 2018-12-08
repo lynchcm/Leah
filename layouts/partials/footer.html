@@ -11,6 +11,7 @@
                 let x0 = null;
                 let locked = false;
                 let tx = '';
+                var scrollTimer;
                 
                 function unify(e) {
                     return e.changedTouches ? e.changedTouches[0] : e
@@ -23,6 +24,7 @@
                 
                 let i = 0;
                 function move(e) {
+                    clearTimeout(scrollTimer);
                     if(locked) {
                         let dx = unify(e).clientX - x0;
                         let s = Math.sign(dx);
@@ -41,6 +43,20 @@
                         $('.indicator-dot:nth-of-type(' + (i + 1) + ')').toggleClass('selected', true);
                     }
                     locked = false;
+                    
+                    scrollTimer = setTimeout(function() {
+                        $('.indicator-dot:nth-of-type(' + (i + 1) + ')').toggleClass('selected', false);
+                        if (i < N - 1) {
+                            i++;
+                            
+                        } else if (i = N - 1) {
+                            i = 0;
+                        }
+                        slideshowContainer.style.setProperty('--i', i);
+                        slideshowContainer.classList.toggle('smooth', true);
+                        $('.indicator-dot:nth-of-type(' + (i + 1) + ')').toggleClass('selected', true);
+                        move();
+                    }, 4000);
                 };
                 
                 function drag(e) {
@@ -64,6 +80,7 @@
 //                slideshowRail.addEventListener('touchmove', e => {e.preventDefault()}, false);
                 
                 $('.indicator-dot:nth-of-type(' + (i + 1) + ')').toggleClass('selected', true);
+                move();
                 
                 $('.indicator-dot').click(function() {
                     
