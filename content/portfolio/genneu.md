@@ -8,8 +8,10 @@ title = "GenNeu"
 type = "client"
 
 +++
-* Facebook, Twitter and Instagram management
-* Increased traffic to website and driven sales
-* Content creation 
-* Boosted engagement and followers 
-* Planned and launched special campaigns 
+* Managed three channels
+* Increased traffic to [website](https://genneu.co.uk/) 
+* Content creation
+* Boosted engagement 
+* Increased followers
+* Driven sales
+* Launched special campaigns
