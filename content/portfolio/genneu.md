@@ -12,4 +12,4 @@ type = "client"
 * Increased traffic to website and driven sales
 * Content creation 
 * Boosted engagement and followers 
-* Planned, launched and managed special campaigns 
+* Planned and launched special campaigns 
