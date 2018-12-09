@@ -1,5 +1,5 @@
 +++
-blogImg = "/uploads/trendz.jpg"
+blogImg = "/uploads/computer-desk-electronics-374074 (1).jpg"
 blogIntro = "After a tumultuous year in social media, what can we expect in the year to come?"
 blogTitle = "4 Social Media Trends to Look Out for in 2019"
 date = "2018-12-09T18:02:19+00:00"
