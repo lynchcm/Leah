@@ -8,7 +8,8 @@ title = "GenNeu"
 type = "client"
 
 +++
-* Social media
-* Increased traffic to website
-* Increased followers
-* Etc
+* Facebook, Twitter and Instagram management
+* Increased traffic to website and driven sales
+* Content creation 
+* Boosted engagement and followers 
+* Planned, launched and managed special campaigns 
