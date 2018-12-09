@@ -1,5 +1,5 @@
 +++
-blogImg = "/uploads/six terms debunked.jpg"
+blogImg = "/uploads/test2.jpg"
 blogIntro = "It's time to debunk six seemingly complex social media terms! "
 blogTitle = "Social Media Jargon Explained!"
 layout = "blogArticle"
