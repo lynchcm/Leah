@@ -6,7 +6,7 @@ layout = "blogArticle"
 type = "blogArticle"
 
 +++
-If you’re trying to get your business up and running on social media, you might feel a bit overwhelmed with all the new terms being thrown your way. From engagement to reach, there’s a whole bunch of weird and wonderful words to come to terms with. Don’t worry it’s not as challenging as you might think! We’re here to debunk six key social media terms to help your business flourish online.
+If you’re trying to get your business up and running on social media, you might feel a bit overwhelmed with all the new terms being thrown your way. From engagement to algorithm, there’s a whole bunch of weird and wonderful words to come to terms with. Don’t worry it’s not as challenging as you might think! We’re here to debunk six key social media terms to help your business flourish online.
 
 ## Algorithm
 
