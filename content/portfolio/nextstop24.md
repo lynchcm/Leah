@@ -8,7 +8,7 @@ title = "NextStop24"
 type = "client"
 
 +++
-* Twitter management 
-* Instagram hashtag research 
+* Twitter management
+* Instagram hashtag research
 * Campaign planning
-* [Website](https://nextstop24.com/) and social content creation
+* [Website](https://nextstop24.com/) and social content
