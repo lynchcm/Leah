@@ -26,7 +26,6 @@ fields:
   name: clientImg
   label: Logo image
 pages:
-- content/portfolio/meadow-hill.md
 - content/portfolio/meadoww.md
 - content/portfolio/genneu.md
 - content/portfolio/nextstop24.md
