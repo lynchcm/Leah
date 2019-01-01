@@ -29,3 +29,5 @@ fields:
 - type: file
   label: Logo image
   name: clientImg
+pages:
+- content/portfolio/test4.md
