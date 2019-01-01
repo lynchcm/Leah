@@ -4,15 +4,23 @@ hide_body: false
 is_partial: false
 fields:
 - name: type
-  label: Type
+  label: Must say blogArticle
   type: text
-  hidden: true
+  hidden: false
   default: blogArticle
+  description: Has to say "blogArticle". Should default to this anyway in which case
+    please do not change.
+  config:
+    required: true
 - name: layout
-  label: Layout
+  label: Must say "blogArticle"
   type: text
-  hidden: true
+  hidden: false
   default: blogArticle
+  description: Has to say "blogArticle" (all lowercase except A). Should default to
+    this anyway in which case please do not change.
+  config:
+    required: true
 - name: blogTitle
   label: Blog Article Title
   type: text
