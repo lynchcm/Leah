@@ -17,6 +17,7 @@ sections:
   match: "**/*"
   exclude: _index.md
   templates:
+  - new-client
   - quote1-md
   - client
 - type: directory
