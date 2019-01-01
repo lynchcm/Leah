@@ -10,6 +10,7 @@ fields:
   hidden: false
   config:
     required: true
+  description: Please do not change!
 - type: textarea
   label: Summary of work done for client
   name: summary
