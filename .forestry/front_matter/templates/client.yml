@@ -5,12 +5,13 @@ is_partial: false
 fields:
 - type: text
   default: client
-  label: type
+  label: Must say "client".
   name: type
   hidden: false
   config:
     required: true
-  description: Please do not change!
+  description: Has to say "client". Should default to this anyway in which case please
+    do not change.
 - type: textarea
   label: Summary of work done for client
   name: summary
