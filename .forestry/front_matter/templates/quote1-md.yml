@@ -4,10 +4,14 @@ hide_body: true
 is_partial: false
 fields:
 - name: type
-  label: Type
+  label: Must say "quote"
   type: text
-  hidden: true
+  hidden: false
   default: quote
+  description: Has to say "quote". Should default to this anyway in which case please
+    do not change.
+  config:
+    required: true
 - name: quote
   label: Quote
   type: textarea
