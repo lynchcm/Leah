@@ -7,7 +7,7 @@ fields:
   default: client
   label: type
   name: type
-  hidden: true
+  hidden: false
   config:
     required: true
 - type: textarea
