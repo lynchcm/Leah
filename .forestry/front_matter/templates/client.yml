@@ -4,10 +4,10 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
-  default: clientt
+  default: client
   label: type
   name: type
-  hidden: false
+  hidden: true
   config:
     required: true
 - type: textarea
