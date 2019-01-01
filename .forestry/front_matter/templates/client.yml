@@ -8,6 +8,8 @@ fields:
   label: type
   name: type
   hidden: true
+  config:
+    required: true
 - type: textarea
   label: Summary of work done for client
   name: summary
