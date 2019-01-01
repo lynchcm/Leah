@@ -6,7 +6,7 @@ fields:
 - type: text
   name: type
   label: type
-  hidden: true
+  hidden: false
   default: client
 - type: textarea
   name: summary
