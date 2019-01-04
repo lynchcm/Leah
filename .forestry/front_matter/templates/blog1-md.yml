@@ -6,7 +6,7 @@ fields:
 - name: type
   label: Must say blogArticle
   type: text
-  hidden: false
+  hidden: true
   default: blogArticle
   description: Has to say "blogArticle". Should default to this anyway in which case
     please do not change.
@@ -15,7 +15,7 @@ fields:
 - name: layout
   label: Must say "blogArticle"
   type: text
-  hidden: false
+  hidden: true
   default: blogArticle
   description: Has to say "blogArticle" (all lowercase except A). Should default to
     this anyway in which case please do not change.
