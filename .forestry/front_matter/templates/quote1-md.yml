@@ -6,7 +6,7 @@ fields:
 - name: type
   label: Must say "quote"
   type: text
-  hidden: false
+  hidden: true
   default: quote
   description: Has to say "quote". Should default to this anyway in which case please
     do not change.
