@@ -7,7 +7,7 @@ fields:
   default: client
   label: Must say "client".
   name: type
-  hidden: false
+  hidden: true
   config:
     required: true
   description: Has to say "client". Should default to this anyway in which case please
