@@ -10,7 +10,10 @@ $small: 800px;
 $medium: 800px;
 
 @font-face {
-    font-family: PlaylistScript; src: url('PlaylistScript.otf');
+    font-family: PlaylistScript;
+    src: url('PlaylistScript.woff2') format('woff2'),
+         url('PlaylistScript.woff') format('woff'),
+         url('PlaylistScript.otf');
 }
 
 * {
