@@ -1019,3 +1019,21 @@ a {
         color: $themeYellow;
     }
 }
+
+#instagram-embed {
+    padding: 20px;
+    
+    p {
+        padding-top: 20px;
+        
+        a {
+            color: $themeYellow;
+        }
+    }
+    
+    iframe {
+        max-width: 600px;
+        display: block;
+        margin: 0 auto;
+    }
+}
