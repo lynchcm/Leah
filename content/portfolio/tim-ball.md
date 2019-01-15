@@ -1,5 +1,5 @@
 +++
-circularLogo = true
+circularLogo = false
 clientImg = "/uploads/timball.png"
 date = "2019-01-15T18:47:04+00:00"
 order = 4
