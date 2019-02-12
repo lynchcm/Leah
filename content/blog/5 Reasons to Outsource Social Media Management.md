@@ -13,7 +13,7 @@ They choose to hand over responsibility for a huge range of reasons. Perhaps the
 
 If you’re considering outsourcing your social media marketing, but need a little more convincing, keep reading for five awesome reasons to take the next step!
 
-## 1. It’s Cheaper than you Think
+## 1. It’s Cheaper Than you Think
 
 Hiring an in-house manager is both expensive and risky business. To hire an experienced social media manager, you’d need a budget of roughly £30,000 a year. To hire Simplicity, you’d need a _maximum_ of £4,000!![5 Reasons to Outsource Social Media Management Cheaper Than You Think](/uploads/Money.jpeg "5 Reasons to Outsource Social Media Management Cheaper Than You Think")
 
