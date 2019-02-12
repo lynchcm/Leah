@@ -9,7 +9,7 @@ type = "blogArticle"
 +++
 I get it: handing over usernames, passwords and control of your business’ accounts is daunting. Trusting someone you’ve maybe never met might even seem completely counter-intuitive. Yet thousands of successful companies of all shapes and sizes outsource their social media marketing to agencies and freelancers.
 
-They choose to hand over responsibility for a huge range of reasons. Perhaps they don’t have the time to manage platforms themselves; maybe they can’t afford to pay an in-house manager; or perhaps they just don’t care to keep up with the tricks of the trade.
+They choose to hand over responsibility for a range of reasons. Perhaps they don’t have the time to manage platforms themselves; maybe they can’t afford to pay an in-house manager; or perhaps they just don’t care to keep up with the tricks of the trade.
 
 If you’re considering outsourcing your social media marketing, but need a little more convincing, keep reading for five awesome reasons to take the next step!
 
