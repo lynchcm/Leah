@@ -7,8 +7,8 @@ summary = "This education consultancy was a little nervous when it came to Insta
 type = "client"
 
 +++
-* Account set-up and bio creation 
-* Copywriting 
-* Hashtag research 
-* Developing list of accounts to follow
+* Account set-up and bio creation
+* Copywriting
+* Hashtag research
+* Finding accounts to follow
 * Boosting engagement rates
