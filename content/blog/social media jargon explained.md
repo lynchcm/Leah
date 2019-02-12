@@ -20,7 +20,7 @@ This term refers to the percentage of people who have actively done something af
 
 ## 3. Engagement
 
-Each platform defines this term slightly different, but, long story short, engagement is synonymous with interactions. On Facebook, engaging with a post can mean sharing, liking or responding by loving, laughing, crying etc. On Instagram, engagement only means liking or commenting, while Twitter determines engagement in terms of replying, liking and retweeting.![Social Media Jargon Explained Engagement](/uploads/Engagement.jpeg "Social Media Jargon Explained Engagement")
+Each platform defines this term slightly different, but, long story short, engagement is synonymous with interactions. On Facebook, engaging with a post can mean sharing, liking or responding by loving, laughing, crying etc. On Instagram, engagement only means liking or commenting, while Twitter determines engagement in terms of replying, liking and retweeting.
 
 As we learnt in the algorithm section, engagement is important because the more engagement an account receives, the more likely its content is to be seen. However, platforms also boost an account’s visibility depending on how much it engages with other profiles. If you want your business to be found as often as possible, therefore, you should engage with other similar accounts or profiles that interest you, and always respond to comments on your own posts.
 
