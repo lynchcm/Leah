@@ -7,6 +7,8 @@ layout = "blogArticle"
 type = "blogArticle"
 
 +++
+## By Caroline Harsch
+
 Deciding where to go on holiday can be challenging, but social media makes it a little easier! While LinkedIn is useful for professional networking, and Facebook and WhatsApp are great for keeping in touch with friends, there are other platforms that can be extremely helpful when it comes to holiday planning. Here at NextStop24, our mission is to inspire travelers around the world. Using my expertise in the travel industry, I have taken a look at three image-heavy communities and summarised how they can make your holiday research a bit less stressful.
 
 ## Instagram
