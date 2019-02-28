@@ -9,8 +9,6 @@ type = "blogArticle"
 +++
 Deciding where to go on holiday can be challenging, but social media makes it a little easier! While LinkedIn is useful for professional networking, and Facebook and WhatsApp are great for keeping in touch with friends, there are other platforms that can be extremely helpful when it comes to holiday planning. Here at NextStop24, our mission is to inspire travelers around the world. Using my expertise in the travel industry, I have taken a look at three image-heavy communities and summarised how they can make your holiday research a bit less stressful.
 
-Deciding where to go on holiday can be challenging, but social media makes it a little easier! While LinkedIn is useful for professional networking, and Facebook and WhatsApp are great for keeping in touch with friends, there are other platforms that can be extremely helpful when it comes to holiday planning. Here at NextStop24, our mission is to inspire travelers around the world. Using my expertise in the travel industry, I have taken a look at three image-heavy communities and summarised how they can make your holiday research a bit less stressful.
-
 ## Instagram
 
 With more than 400 million active users, Instagram is one of the largest and fastest-growing social media platforms out there. It offers a collection of photos and short videos that mostly focus on fashion, food, art, and travel.![](/uploads/instagram1.jpeg)
