@@ -1,5 +1,5 @@
 +++
-circularLogo = false
+circularLogo = true
 clientImg = "/uploads/29186320_1711560632223029_9108800844684944188_n.jpg"
 date = "2019-02-28T12:31:49+00:00"
 order = 2
