@@ -33,6 +33,6 @@ I personally find Instagram and Pinterest more useful for general travel inspira
 
 As with the aforementioned platforms, you can follow your favourite travel channels, or search for specific content. Depending on your search terms, you’ll find everything from quick summaries of “The Best Places to See in the US” to in-depth documentaries and personal travel advice.
 
-###### Guest post by Caroline Harsch.
+## Guest post by Caroline Harsch.
 
 Caroline is the founder of [NextStop24](https://nextstop24.com). This travel inspiration and review website allows you to find your dream destination. Simply answer a few straightforward questions, and you'll get holiday suggestions based on in-depth research and genuine reviews. Caroline loves to travel herself and is a big fan of exotic beaches, vibrant cities and open landscapes.
