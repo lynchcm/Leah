@@ -1,5 +1,5 @@
 +++
-blogImg = "/uploads/cover.jpeg"
+blogImg = "/uploads/pinterest2.jpeg"
 blogIntro = "This guest post comes to us from Caroline Harsch, founder of NextStop24"
 blogTitle = "3 Social Media Platforms to Plan Your Next Holiday"
 date = "2019-02-28T13:09:53+00:00"
