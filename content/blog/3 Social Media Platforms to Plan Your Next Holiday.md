@@ -7,11 +7,9 @@ layout = "blogArticle"
 type = "blogArticle"
 
 +++
-## **3 Social Media Platforms to Plan Your Next Holiday**
-
 Deciding where to go on holiday can be challenging, but social media makes it a little easier! While LinkedIn is useful for professional networking, and Facebook and WhatsApp are great for keeping in touch with friends, there are other platforms that can be extremely helpful when it comes to holiday planning. Here at NextStop24, our mission is to inspire travelers around the world. Using my expertise in the travel industry, I have taken a look at three image-heavy communities and summarised how they can make your holiday research a bit less stressful.
 
-## **Instagram**
+## Instagram
 
 With more than 400 million active users, Instagram is one of the largest and fastest-growing social media platforms out there. It offers a collection of photos and short videos that mostly focus on fashion, food, art, and travel.![](/uploads/instagram1.jpeg)
 
@@ -19,7 +17,7 @@ When it comes to travel inspiration, there are two ways to use Instagram: you ca
 
 Personally, I prefer to follow smaller hashtags which aren’t been used very often. #Travel has been used more than 374 million times, making the available content quite overwhelming! I have also noticed that smaller, specific hashtags are often used by more dedicated Instagrammers, who share higher quality content.
 
-## **Pinterest**
+## Pinterest
 
 While Instagram is an interactive platform, Pinterest and Youtube are more typically used like search engines. You can still follow your favourite Pinterest or Youtube channels, but it’s not as common as on Instagram.![](/uploads/pinterest1.jpeg)
 
