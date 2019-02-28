@@ -30,9 +30,9 @@ fields:
   name: clientImg
   label: Logo image
 pages:
+- content/portfolio/Knowledge Oasis.md
+- content/portfolio/CK Coaching.md
+- content/portfolio/nextstop24.md
+- content/portfolio/tim-ball.md
 - content/portfolio/meadoww.md
 - content/portfolio/genneu.md
-- content/portfolio/tim-ball.md
-- content/portfolio/nextstop24.md
-- content/portfolio/CK Coaching.md
-- content/portfolio/Knowledge Oasis.md

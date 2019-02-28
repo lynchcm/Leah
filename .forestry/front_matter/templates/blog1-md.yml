@@ -42,6 +42,6 @@ fields:
   default: ''
   description: Image on the main blog page (not the blog article)
 pages:
-- content/blog/social media jargon explained.md
-- content/blog/4-social-media-trends-to-look-out-for-in-2019.md
 - content/blog/5 Reasons to Outsource Social Media Management.md
+- content/blog/4-social-media-trends-to-look-out-for-in-2019.md
+- content/blog/social media jargon explained.md
