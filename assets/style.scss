@@ -964,6 +964,12 @@ a {
             margin: 0 auto;
             display: block;
         }
+        
+        @media only screen and (min-width: $medium) {
+            p:nth-child(1) {
+                padding-top: 200px;
+            }
+        }
     }
     
     p {
